@@ -1,0 +1,5 @@
+*.config
+ci/application/config/*
+sites/*
+*.mp4
+sites/*
