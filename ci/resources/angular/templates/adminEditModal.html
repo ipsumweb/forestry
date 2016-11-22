@@ -1,0 +1,104 @@
+<div id="wrap">
+    <!-- Begin page content -->
+    <div class="container" >
+    	<div class="row">
+    		<div class="col-md-12">
+				<p>
+					<a class="btn btn-default " ng-href="/ci/admin/park/{{modal.parkID}}"> &laquo; back to park content </a>	
+					<a class="btn btn-default pull-right" href="/ci/admin/logout">logout</a>
+				</p>
+				
+				<ol class="breadcrumb">
+				  <li><a href="/ci/admin/edit">CMS home page</a></li>
+				  <li><a ng-href="/ci/admin/park/{{modal.parkID}}">Park "{{ modal.cleanTitle }}"</a></li>
+				  <li class="active">Modal "{{ modal.itemTitle }}"</li>
+				</ol>
+				
+				<!-- <h4>Editing Map Item / Modal "{{ modal.itemTitle }}" <small> << Park "{{ modal.cleanTitle }}"</small>
+				</h4> -->
+				
+				<p ng-if="!panoMessage">Below are the pieces of content for this modal. Make edits on the right. See them update on the left. Once you are satisfied with your changes, <strong>be sure to click "Save" at the bottom to save the changes</strong>.</p>
+				<p class="lead alert alert-danger" ng-if="panoMessage">This map element you have selected is a panoramic feature. To replace the elements that comprise this stop, the entire folder must be uploaded to the web server. Email Catherine for details on how to do this. :) </p> 
+		
+			</div>
+	
+		</div>
+    	<div class="row" ng-if="!panoMessage">
+    		<div class="col-md-6">
+				
+				<h3>Preview Area</h3>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						{{ modal.itemNewTitle }}
+					</div>
+					<div class="panel-body" ng-bind-html="shell">
+						
+					</div>						
+
+				</div>
+				
+				<div ng-if="submodalList.length > 0">
+					<h4>Or, choose a second-level popup item for this modal:</h4>
+				 	<ul class="list-group">					 
+					 	<li class="list-group-item" ng-repeat="item in submodalList">
+					 		<a ng-href="/ci/admin/submodal/{{item.ppID}}" > {{ item.ppTitle }} &raquo;</a>
+				 		</li>
+				 	</ul>
+
+			 
+			 	</div>
+				
+			</div>
+    		<div class="col-md-6">
+				
+				<h3>Editing Options</h3>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">Edit Modal Title</div>
+					<div class="panel-body">
+						<div class="form-group">
+							<input ng-model="modal.itemNewTitle" 
+								class="form-control"  />
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">Edit Page Components</div>
+					<div class="panel-body">
+					<ng-form>
+						<div class="form-group" ng-repeat="piece in formData">
+							<label>Edit: </label>
+							
+							<!-- these 2 are for video inputs -->
+							<small ng-if="piece.isVideo == 1"><br>This is a Vimeo video ID #. Replace just the numerical text to see the replacement video.</small>
+							
+							<input ng-if="piece.isVideo == 1 || piece.isTextarea == 0" ng-model="piece.theContent" 
+								class="form-control" ng-keyup="runHTMLRender()" />
+								
+							<textarea ng-if="piece.isTextarea == 1" 
+								ng-model="piece.theContent" ui-tinymce="tinymceOptionsSmall"
+								class="form-control" ng-keyup="runHTMLRender()"></textarea>
+						</div>	
+						
+						<button type="submit" class="btn btn-success" ng-click="saveModalPieces()"> Save </button>					
+					</ng-form>
+					
+					<div class="alert alert-danger" ng-show="showError">
+						{{ scope.showError }}
+					</div>
+					<div class="alert alert-success" ng-show="showSuccess" >
+						Great, this map item / modal has been updated. <a ng-href="/ci/admin/park/{{modal.parkID}}"> Go back to park content... </a>
+					</div>
+					
+					</div><!-- end panel body -->
+				</div><!-- end panel -->
+
+				
+				
+			</div>
+		</div>
+      
+    </div>
+</div>

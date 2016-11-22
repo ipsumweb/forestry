@@ -1,0 +1,215 @@
+@CHARSET "UTF-8";
+
+/* general */
+body { font-family: 'Roboto Slab', serif; }
+html, body { height: 100%;}
+body > .container {  min-height: 600px; margin-bottom: 100px; }
+/* but not for the embedded modal pages */
+body > .embedded {min-height: 0px; margin-bottom: 0px; margin-top: 30px;}
+body {
+	background: transparent  no-repeat center bottom fixed; /* replace URL on page */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body.admin-body {
+	background: #a8a8a8;
+}
+
+area:hover {
+	cursor: pointer;
+}
+
+
+#fixed-home {
+	background: url('/ci/resources/images/_general/translucent-bg.png');
+	height: 100%;
+	width: 25%;
+	position: absolute;
+	right: 0px;
+	border-left: 1px solid #fdd449;
+	border-right: 1px solid #fdd449;
+	
+	padding: 40px 3%;
+}
+#fixed-home p {
+	text-align: left;
+}
+
+
+#wrap { 
+	min-height: 100%;
+	height: auto !important;
+	margin: 0 auto -53px; /* lose the footer height */
+}
+
+h1,h2,h3,h4,h5,h6, p { color: white; text-shadow: 1px 2px 1px #003c55; font-family: 'Roboto Slab', serif;}
+p, ul.body-text li {
+	line-height: 1.7; 
+	font-size: 16px; 
+	text-align: center; 
+	text-shadow: 1px 2px 1px #003c55; 
+}
+
+ul.body-text li {
+	text-align: left;
+	color: white;
+}
+
+a {
+	color: #ffdc4b;
+}
+a:hover, a:focus { 
+	color: #e7e2b8; 
+}
+.col-md-6 .dropdown-menu>li>a:hover {
+	background: transparent;
+}
+
+button.submit-img {
+    background-image: url('/ci/resources/images/_general/wood-overlay-bg.jpg');
+    border: 2px solid #ffcb2e;
+    border-radius: 0px;
+    background-position: top;
+    text-transform: uppercase;
+    color: black;
+}
+
+/* text treatments */
+.yellow-header { color: #eff1bc; }
+.pale-green-header { color: #d2e498; }
+.page-header {text-align: center; border-bottom: 0px; margin-top: 40px; }
+.page-header h1 {text-shadow: 6px 6px 6px #000;}
+.page-header:after {content: url('/ci/resources/images/_general/divider-img.png'); }
+.dark-yellow { color: #ffdc4b; }
+
+.badge-description, .badge-description p, .badge-description a {
+    text-align: left;
+    font-size: 95%;
+	color: white;
+}
+
+.collapse.navbar-collapse { text-align: center; }
+
+.navbar-inverse { background: transparent; border: none; margin-bottom: 0px;}
+.navbar-inverse .navbar-nav  { border: 1px solid #DCDBB9; border-top: none;   }
+
+#user-login label, #user-register-form label, #user-pass label, #contact-site-form label {
+	color: white;
+}
+
+input.form-control, textarea.form-control {
+    background: #ebff9b;
+    border: 1px solid #4b4b4b;
+    border-radius: 0px;
+}
+
+
+.modal-body .well.well-sm p {
+	color: black;
+	text-shadow: none;
+}
+
+p.caption { 
+	color: white;
+}
+ 
+ /* custom nav elements for non-mobile nav menu */
+@media screen and (min-width: 768px) {
+    .navbar-inverse .navbar-nav {
+        display: inline-block;
+		  float: none;
+		  vertical-align: top;
+		 
+    }
+    
+    nav.navbar.navbar-inverse.navbar-static-top {
+    	width: 100%;
+    }
+}
+ /* custom nav elements for mobile nav menu */
+@media screen and (max-width: 768px) {
+    .navbar-inverse .navbar-nav {
+        margin: 0px;
+		
+    }
+	.navbar-toggle {
+		margin-bottom: 0px;
+	}
+}
+
+.navbar-inverse .navbar-nav > li > a { 
+	background: #40423B; 
+	color: #ffdc4b; 
+	padding: 5px 15px;
+	border-radius: 0px;
+	font-size: 110%;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li.active > a, 
+.navbar-inverse .navbar-nav > li.active > a:hover,
+.navbar-inverse .navbar-nav > li.active > a:focus,
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-nav .dropdown-menu>li>a:hover, 
+.navbar-nav .dropdown-menu>li>a:focus
+	{ background: #575e4b; color: #ffdc4b;}
+
+.navbar-nav .open .dropdown-menu {
+	background: #40423B;
+}
+
+
+button.navbar-toggle { background: #40423B; border-radius: 0px;  border: 1px solid #DCDBB9;}
+.navbar-inverse .navbar-toggle .icon-bar {background-color: #DCDBB9;}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border: none;}
+
+.navbar-nav ul.dropdown-menu {
+	border: 1px solid #c4c09c;
+    background-color: #575e4b;
+    width: 100%;
+    border-radius: 0px;
+	min-width: 100px;
+}
+
+.navbar-nav ul.dropdown-menu a { 
+	color: #f6d649;	 
+	padding: 3px 10px;
+}
+
+/* custom top nav ONLY on the maps page... since nav has to float above map div, blah blah */
+body.custom-map .navbar.navbar-inverse.navbar-static-top {background: #40423B;}
+body.custom-map .navbar-inverse .navbar-nav {border: none;}
+
+
+/* footer custom */
+.nav>li>a>img {
+	height: 41px;
+}
+
+.footer {
+	background: #40423B;
+	border-top: 1px solid #e7e2b8;
+	height: 53px;
+}
+
+.footer li a {
+	padding: 5px;
+	color: #e7e2b8;
+}
+
+/* the one text link in the footer */
+.footer .navbar-nav:not(.navbar-right) li:first-child a {
+	padding: 16px;
+}
+
+.footer li a:hover {
+	background: #575e4b; color: #ffdc4b;
+}

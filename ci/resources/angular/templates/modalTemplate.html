@@ -1,0 +1,46 @@
+<!-- new modal directive template -->
+<!-- <div class="modal fade">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content"> -->
+<div>
+		<div class="modal-header">
+        <button type="button" class="close" ng-click="cancel()"> <i class='glyphicon glyphicon-remove-circle  yellow-header'></i> </button>
+		
+		
+        <h4 class="modal-title yellow-header">
+			<a ng-click="assign(prev)" role="button" >
+			<img class="img img-responsive" style="height: 40px; margin-right: 40px; display: inline;" src="/ci/resources/images/icons/left-arrow.png" />
+			<span class="sr-only">Previous</span></a> 
+		{{ title }} 
+			<a ng-click="assign(next)" role="button" >
+					<img style="height: 40px; margin-left: 40px; display: inline;" class="img img-responsive" src="/ci/resources/images/icons/right-arrow.png" />
+					<span class="sr-only">Next</span>
+			</a>
+		</h4>
+      </div>
+      <div class="modal-body">
+	    		
+		<div ng-if="theSrc" class="embed-responsive embed-responsive-16by9">
+  			<iframe height="400" class="embed-responsive-item" ng-src="{{theSrc}}"></iframe>
+		</div>  
+
+		<!-- <div ng-if="otherContent" ng-bind-html="otherContent" ></div> -->
+		
+		<div dynamic="otherContent"></div>
+		
+	</div>
+	<div class="modal-footer">
+		<ul class="nav nav-tabs nav-justified">
+			<li ng-repeat="item in navItems" ng-class="{'active':item.isActive}">
+			<span ng-click="assign(item.modalID)"  >
+				<img ng-src="{{item.icon}}" />
+			</span>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+
+<!-- </div>
+</div>
+</div> -->

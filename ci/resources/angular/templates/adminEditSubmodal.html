@@ -1,0 +1,87 @@
+<div id="wrap">
+    <!-- Begin page content -->
+    <div class="container" >
+    	<div class="row">
+    		<div class="col-md-12">
+				<p>
+					<a class="btn btn-default " ng-href="/ci/admin/modal/{{popup.modalItemID}}"> &laquo; back to parent modal </a>	
+					<a class="btn btn-default pull-right" href="/ci/admin/logout">logout</a>
+				</p>
+				
+				<ol class="breadcrumb">
+				  <li><a ng-href="/ci/admin/park/{{popup.parkID}}">Park "{{ popup.cleanTitle }}"</a></li>
+				  <li><a ng-href="/ci/admin/modal/{{popup.modalItemID}}">Modal "{{ popup.itemTitle }}"</a></li>
+				  <li class="active">Second-Level Modal "{{ popup.ppTitle }}"</li>
+				</ol>
+				
+				<!-- <h4>Editing Second-Level Modal "{{ popup.ppTitle }}" <small><< Modal "{{ popup.itemTitle }}" << Park "{{ popup.cleanTitle }}"  </small>
+				</h4> -->
+				
+				<p>Below are the pieces of content for this second-level modal. Make edits on the right. See them update on the left. Once you are satisfied with your changes, <strong>be sure to click "Save" at the bottom to save the changes</strong>.</p>
+				
+			</div>
+		</div>
+    	<div class="row">
+    		<div class="col-md-6">
+				<h3>Preview Area</h3>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						{{ popup.itemNewTitle }}
+					</div>
+					
+					<div class="panel-body" ng-bind-html="shell">
+						
+					</div>						
+
+				</div>
+			</div>
+    		<div class="col-md-6">
+				
+				<h3>Editing Options</h3>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">Edit Page Title</div>
+					<div class="panel-body">
+						<div class="form-group">
+							<input ng-model="popup.itemNewTitle" 
+								class="form-control"  />
+						</div>
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">Edit Page Components</div>
+					<div class="panel-body">
+					<ng-form>
+						<div class="form-group" ng-repeat="piece in formData">
+							<label>Edit: </label>
+							
+							<!-- these 2 are for video inputs -->
+							<small ng-if="piece.isVideo == 1"><br>This is a Vimeo video ID #. Replace just the numerical text to see the replacement video.</small>
+							
+							<input ng-if="piece.isVideo == 1 || piece.isTextarea == 0" ng-model="piece.theContent" 
+								class="form-control" ng-keyup="runHTMLRender()" />
+								
+							<textarea ng-if="piece.isTextarea == 1" 
+								ng-model="piece.theContent" ui-tinymce="tinymceOptionsSmall"
+								class="form-control" ng-keyup="runHTMLRender()"></textarea>
+						</div>	
+						
+						<button type="submit" class="btn btn-success" ng-click="saveModalPieces()"> Save </button>					
+					</ng-form>
+					
+					<div class="alert alert-danger" ng-show="showError">
+						{{ scope.showError }}
+					</div>
+					<div class="alert alert-success" ng-show="showSuccess" >
+						Great, this second-level modal popup item has been updated. <a ng-href="/ci/admin/modal/{{popup.modalItemID}}"> Go back to the parent modal... </a>
+					</div>
+					
+					</div><!-- end panel body -->
+				</div><!-- end panel -->
+
+			</div>
+		</div>
+      
+    </div>
+</div>

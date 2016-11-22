@@ -1,0 +1,1 @@
+<basic-page-template></basic-page-template>

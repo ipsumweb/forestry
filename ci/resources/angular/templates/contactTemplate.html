@@ -1,0 +1,54 @@
+<!-- todo -- put this content into the DB for page_lookup (contact page ) -->
+<div id="wrap">
+    <!-- Begin page content -->
+    <div class="container" >
+    	<div class="row">
+    		<div class="col-md-3">
+    			    			<a href="/ci/home">
+    				<img src="/ci/resources/images/_general/logo-exploreOregonForest.png" class="img img-responsive" />
+    			</a>
+    		</div>
+    		<div class="col-md-6">
+	    		<div class="page-header">
+					<h1 ng-bind-html="pageContent.pageTitle"></h1>
+				</div>
+				
+				<div ng-bind-html="trustedPageTextHTML" style="margin-bottom: 20px;">
+				</div>
+				  
+				  <form id="contact-site-form" name="userForm" ng-submit="submitForm(userForm.$valid)" novalidate>
+				  <div class="form-type-textfield form-item-name form-item form-group">
+					  <label for="edit-name">Your name <span class="form-required" title="This field is required.">*</span></label>
+					 <input class="form-control form-text required" type="text" ng-model="formData.name">
+					</div>
+					<div class="form-type-textfield form-item-mail form-item form-group">
+					  <label for="edit-mail">Your e-mail address <span class="form-required" title="This field is required.">*</span></label>
+					 <input class="form-control form-text required" type="email" ng-model="formData.email">
+					</div>
+					<div class="form-type-textfield form-item-subject form-item form-group">
+					  <label for="edit-subject">Subject <span class="form-required" title="This field is required.">*</span></label>
+					 <input class="form-control form-text required" type="text" ng-model="formData.subject" size="60" maxlength="255">
+					</div>
+					<div class="form-type-textarea form-item-message form-item form-group">
+					  <label for="edit-message">Message <span class="form-required" title="This field is required.">*</span></label>
+					 <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea"><textarea class="form-control form-textarea required" ng-model="formData.message" cols="60" rows="5"></textarea><div class="grippie"></div></div>
+					</div>
+
+					<button class="btn btn-default form-submit submit-img" value="Send message" ng-disabled="userForm.$invalid" type="submit">Send message</button>
+					
+				</form>
+				<div class="alert alert-success" ng-show="showSuccess">
+					Thanks for contacting us! We'll get back to you if your message requires a response.
+				</div>
+				<div class="alert alert-danger" ng-show="showError">
+					Oops! Looks like you missed a required field. Please double-check before submitting.
+				</div>
+    		</div>
+    		
+    		<div class="col-md-3">
+    		 
+    		</div>
+    	</div>
+      
+    </div>
+</div>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <input leveltilesize="512" leveltileurl="tiles/health_unhealth/c%c_l%r_%y_%x.jpg" width="4000" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0" levelbiashidpi="0.400" height="4000">
+    <level width="4000" predecode="0" height="4000" preload="0"/>
+    <level width="2000" predecode="0" height="2000" preload="0"/>
+    <level width="1000" predecode="1" height="1000" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start pan="86" fov="70" tilt="2.5"/>
+    <min pan="-180" fov="5" tilt="-42.6231"/>
+    <max pan="180" fov="120" tilt="42.6231"/>
+  </view>
+  <userdata description="" source="" latitude="" datetime="2015:11:02 08:47:45" comment="" tags="" info="" longitude="" title="" author="" copyright=""/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label borderalpha="1" enabled="1" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" width="180" bordercolor="0x000000" backgroundalpha="1" wordwrap="1" background="1" border="1" height="20" textalpha="1"/>
+    <polystyle borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627"/>
+    <hotspot description="" pan="-39.6" id="invasiveplants" url="" target="_blank" tilt="7.34" title="" skinid="ht_url"/>
+    <hotspot description="" pan="-48.14" id="monoculture" url="" target="_blank" tilt="-26.9" title="" skinid="ht_url"/>
+    <hotspot description="" pan="-5.37" id="understory" url="" target="_blank" tilt="-15.44" title="" skinid="ht_url"/>
+    <hotspot description="" pan="38.09" id="invasivevines" url="" target="_blank" tilt="16" title="" skinid="ht_url"/>
+    <hotspot description="" pan="54.07" id="ivydesert" url="" target="_blank" tilt="-18.18" title="" skinid="ht_url"/>
+    <hotspot description="" pan="132.31" id="foodsource" url="" target="_blank" tilt="-2.74" title="" skinid="ht_url"/>
+    <hotspot description="" pan="151.31" id="diversity" url="" target="_blank" tilt="-23.29" title="" skinid="ht_url"/>
+    <hotspot description="" pan="-170.87" id="vinefree" url="" target="_blank" tilt="-10.99" title="" skinid="ht_url"/>
+    <hotspot description="" pan="-174.87" id="light" url="" target="_blank" tilt="18.37" title="" skinid="ht_url"/>
+    <hotspot description="" pan="-123.1" id="multiage" url="" target="_blank" tilt="0.11" title="" skinid="ht_url"/>
+  </hotspots>
+  <media>
+    <image rotx="0.000" pan="-86.080" roty="0.000" handcursor="0" rotz="0.000" id="Element01" width="1269" stretch="1.000" fov="37.380" clickmode="0" tilt="18.130" height="181">
+      <source url="media/healthsigns.png"/>
+    </image>
+    <image rotx="0.000" pan="85.620" roty="0.000" handcursor="0" rotz="0.000" id="Element02" width="1269" stretch="1.000" fov="38.021" clickmode="0" tilt="21.990" height="181">
+      <source url="media/healthsignsflip.png"/>
+    </image>
+    <image rotx="0.000" pan="-171.080" roty="0.000" handcursor="0" rotz="0.000" id="Element09" width="517" stretch="1.000" fov="30.000" clickmode="0" tilt="-6.430" height="56">
+      <source url="media/pointer_vinefree2.png"/>
+    </image>
+    <image rotx="0.000" pan="-122.940" roty="0.000" handcursor="0" rotz="0.000" id="Element08" width="334" stretch="1.000" fov="17.402" clickmode="0" tilt="4.700" height="63">
+      <source url="media/pointer_multiage_flip2.png"/>
+    </image>
+    <image rotx="0.000" pan="-175.030" roty="0.000" handcursor="0" rotz="0.000" id="Element10" width="337" stretch="1.000" fov="18.976" clickmode="0" tilt="22.260" height="67">
+      <source url="media/pointer_lightavailability_flip2.png"/>
+    </image>
+    <image rotx="0.000" pan="151.080" roty="0.000" handcursor="0" rotz="0.000" id="Element11" width="503" stretch="1.000" fov="30.000" clickmode="0" tilt="-19.280" height="57">
+      <source url="media/pointer_diversity2.png"/>
+    </image>
+    <image rotx="0.000" pan="131.950" roty="0.000" handcursor="0" rotz="0.000" id="Element12" width="890" stretch="1.000" fov="39.449" clickmode="0" tilt="1.770" height="65">
+      <source url="media/pointer_foodsource2.png"/>
+    </image>
+    <image rotx="0.000" pan="53.990" roty="0.000" handcursor="0" rotz="0.000" id="Element03" width="241" stretch="1.000" fov="19.606" clickmode="0" tilt="-13.920" height="60">
+      <source url="media/pointer_ivydesert2.png"/>
+    </image>
+    <image rotx="0.000" pan="38.060" roty="0.000" handcursor="0" rotz="0.000" id="Element04" width="466" stretch="1.000" fov="26.063" clickmode="0" tilt="19.660" height="63">
+      <source url="media/pointer_invasivevines_flip2.png"/>
+    </image>
+    <image rotx="0.000" pan="-5.420" roty="0.000" handcursor="0" rotz="0.000" id="Element05" width="862" stretch="1.000" fov="41.496" clickmode="0" tilt="-11.460" height="69">
+      <source url="media/pointer_understory2.png"/>
+    </image>
+    <image rotx="0.000" pan="-48.190" roty="0.000" handcursor="0" rotz="0.000" id="Element06" width="806" stretch="1.000" fov="41.024" clickmode="0" tilt="-22.750" height="70">
+      <source url="media/pointer_monoculture2.png"/>
+    </image>
+    <image rotx="0.000" pan="-39.830" roty="0.000" handcursor="0" rotz="0.000" id="Element07" width="552" stretch="1.000" fov="30.000" clickmode="0" tilt="11.950" height="53">
+      <source url="media/pointer_invasiveplants2.png"/>
+    </image>
+  </media>
+  <transition zoomout="0" softedge="0" zoomoutpause="1" enabled="0" zoomfov="20" zoomin="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomspeed="2"/>
+  <control sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" lockedkeyboard="0" dblclickfullscreen="0" invertcontrol="1" lockedmouse="0" invertwheel="0" lockedwheel="0" speedwheel="1" contextfullscreen="0" hideabout="0"/>
+</panorama>

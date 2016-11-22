@@ -1,0 +1,42 @@
+<div id="wrap">
+    <!-- Begin page content -->
+    <div class="container" >
+    	<div class="row">
+    		<div class="col-md-3">
+    			 
+    		</div>
+
+    		<div class="col-md-6">
+	    		<div class="page-header">
+			        <h1>Please Login:</h1>
+			      </div>
+				  <p>Please login using the credentials you have been provided by the PACE/OSU team.</p>
+				  
+				  <form name="userForm" ng-submit="submitForm(userForm.$valid)" novalidate>
+				  <div class="form-type-textfield form-item-name form-item form-group">
+					  <label for="edit-name">Username <span class="form-required" title="This field is required.">*</span></label>
+					 <input class="form-control form-text required" type="text" ng-model="formData.username">
+					</div>
+					<div class="form-type-textfield form-item-mail form-item form-group">
+					  <label for="edit-mail">Password <span class="form-required" title="This field is required.">*</span></label>
+					 <input class="form-control form-text required" type="password" ng-model="formData.password">
+					</div>
+
+					<button class="btn btn-default form-submit submit-img" value="Send message" ng-disabled="userForm.$invalid" type="submit">Sign in</button>
+					
+				</form>
+				
+				<p><br><br><br><br><br>Or, <a href="/ci">click here</a> to go back to the Explore Oregon Forests home page.</p>
+				
+				<div class="alert alert-danger" ng-show="showError">
+					Oops! Looks like you missed a required field. Please double-check before submitting.
+				</div>
+    		</div>
+    		
+    		<div class="col-md-3">
+    		 
+    		</div>
+    	</div>
+      
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<!-- new default template for basic pages, formerly using the pageController -->
+<div id="wrap">
+    <!-- Begin page content -->
+    <div class="container" >
+    	<div class="row">
+    		<div class="col-md-3">
+    			<a href="/ci/home">
+    				<img src="/ci/resources/images/_general/logo-exploreOregonForest.png" class="img img-responsive" />
+    			</a>
+    		</div>
+    		<div class="col-md-6">
+	    		<div class="page-header">
+			        <h1 ng-bind-html="pageContent.pageTitle"></h1>
+			      </div>
+				  
+			      <div ng-if="thisPage != '/home'" ng-bind-html="trustedPageTextHTML" style="margin-bottom: 150px;">
+			      </div>
+				  
+				  
+			      <div ng-if="thisPage == '/home'" ng-bind-html="trustedPageTextHTML" >
+			      </div>
+				  
+				  <div ng-if="thisPage == '/home'" class="row" style="margin-bottom: 150px;"> <div class="col-xs-8 col-xs-offset-3"><div class="dropdown">  <img class="dropdown-toggle" src="/ci/resources/images/_general/dropdown-00-top.png" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" />  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="background: none; padding: 0px; margin: 0px;"> <li><a style="padding: 0px 15px;" href="/ci/park/forest-park"><img src="/ci/resources/images/_general/dropdown-forest-park.png"/></a></li> <li><a style="padding: 0px 15px;" href="/ci/park/working-forests"> <img src="/ci/resources/images/_general/dropdown-working-forests.png"/></a></li><li><a style="padding: 0px 15px;" href="/ci/park/ashland"><img src="/ci/resources/images/_general/dropdown-ashland.png"/></a></li>            <li><a style="padding: 0px 15px;" href="/ci/park/oregon-coast"><img src="/ci/resources/images/_general/dropdown-heritage-trees.png"/></a></li>   </ul></div>   </div> </div>
+				  
+    		</div>
+    		
+    		<div class="col-md-3">
+    		 
+    		</div>
+    	</div>
+      
+    </div>
+</div>

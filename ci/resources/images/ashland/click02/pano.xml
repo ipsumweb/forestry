@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1">
+  <input overlap="1" levelingpitch="0" leveltileurl="tiles/360ForestFireFinal/cf_%c/l_%l/c_%x/tile_%y.jpg" height="4108" leveltilesize="510" levelingroll="0" width="4108" levelbiashidpi="0.400" levelbias="0.400">
+    <level predecode="0" preload="0" height="4108" width="4108"/>
+    <level predecode="0" preload="0" height="2054" width="2054"/>
+    <level predecode="0" preload="0" height="1027" width="1027"/>
+    <level predecode="0" preload="0" height="513" width="513"/>
+    <level predecode="1" preload="1" height="256" width="256"/>
+    <preview strip="1" color="0x8c8c8c"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start pan="0" tilt="0" fov="70"/>
+    <min pan="-180" tilt="-47.6259" fov="5"/>
+    <max pan="180" tilt="47.6259" fov="120"/>
+  </view>
+  <userdata latitude="" info="" title="" datetime="2016:05:11 14:41:55" description="" longitude="" copyright="" author="" source="" tags="360ForestFire" comment=""/>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label borderradius="1" backgroundalpha="1" borderalpha="1" textalpha="1" border="1" height="20" wordwrap="1" enabled="1" backgroundcolor="0x000000" bordercolor="0xffffff" background="1" width="180" textcolor="0xffffff"/>
+    <polystyle mode="0" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+    <hotspot pan="105.36" target="_blank" title="" tilt="-4.16" description="" skinid="ht_url" url="" id="burnPile"/>
+    <hotspot pan="114.53" target="_blank" title="" tilt="13.82" description="" skinid="ht_url" url="" id="forestConditions"/>
+    <hotspot pan="151.47" target="_blank" title="" tilt="1.52" description="" skinid="ht_url" url="" id="controlBurn"/>
+    <hotspot pan="176.43" target="_blank" title="" tilt="18.13" description="" skinid="ht_url" url="" id="commProtect"/>
+    <hotspot pan="-137.22" target="_blank" title="" tilt="9.84" description="" skinid="ht_url" url="" id="greatSpace"/>
+    <hotspot pan="-152.69" target="_blank" title="" tilt="-19.27" description="" skinid="ht_url" url="" id="lessWood"/>
+    <hotspot pan="-63.63" target="_blank" title="" tilt="-5.67" description="" skinid="ht_url" url="" id="denseUnder"/>
+    <hotspot pan="-41.83" target="_blank" title="" tilt="23.8" description="" skinid="ht_url" url="" id="hisoryFire"/>
+    <hotspot pan="-24.08" target="_blank" title="" tilt="-24.96" description="" skinid="ht_url" url="" id="commDanger"/>
+    <hotspot pan="4.17" target="_blank" title="" tilt="17.41" description="" skinid="ht_url" url="" id="ladderFuel"/>
+    <hotspot pan="36.23" target="_blank" title="" tilt="30.68" description="" skinid="ht_url" url="" id="tightSpace"/>
+    <hotspot pan="22.24" target="_blank" title="" tilt="-12.37" description="" skinid="ht_url" url="" id="dyingTree"/>
+  </hotspots>
+  <media>
+    <image pan="57.710" stretch="1.000" handcursor="0" tilt="17.970" clickmode="0" rotx="0.000" roty="0.000" height="181" rotz="0.000" fov="30.000" id="Element01" width="1269">
+      <source url="media/signflips.png"/>
+    </image>
+    <image pan="-105.440" stretch="1.000" handcursor="0" tilt="18.000" clickmode="0" rotx="0.000" roty="0.000" height="181" rotz="0.000" fov="30.000" id="Element02" width="1269">
+      <source url="media/treatedsigns.png"/>
+    </image>
+    <image pan="-137.220" stretch="1.000" handcursor="0" tilt="13.780" clickmode="0" rotx="0.000" roty="0.000" height="60" rotz="0.000" fov="28.117" id="Element03" width="574">
+      <source url="media/Greater-Space-Between-Trees.png"/>
+    </image>
+    <image pan="-153.160" stretch="1.000" handcursor="0" tilt="-13.910" clickmode="0" rotx="0.000" roty="0.000" height="100" rotz="0.000" fov="24.194" id="Element04" width="462">
+      <source url="media/Less-Woody-Vegetation-on-the-Forest-Floor.png"/>
+    </image>
+    <image pan="176.300" stretch="1.000" handcursor="0" tilt="21.760" clickmode="0" rotx="0.000" roty="0.000" height="58" rotz="0.000" fov="25.135" id="Element05" width="443">
+      <source url="media/Community-Protection.png"/>
+    </image>
+    <image pan="151.600" stretch="1.000" handcursor="0" tilt="5.730" clickmode="0" rotx="0.000" roty="0.000" height="52" rotz="0.000" fov="25.763" id="Element06" width="539">
+      <source url="media/Allows-for-Controlled-Burns.png"/>
+    </image>
+    <image pan="114.030" stretch="1.000" handcursor="0" tilt="18.190" clickmode="0" rotx="0.000" roty="0.000" height="52" rotz="0.000" fov="25.135" id="Element07" width="504">
+      <source url="media/Restore-Forest-Conditions.png"/>
+    </image>
+    <image pan="104.870" stretch="1.000" handcursor="0" tilt="0.200" clickmode="0" rotx="0.000" roty="0.000" height="52" rotz="0.000" fov="22.781" id="Element08" width="360">
+      <source url="media/Piles-to-be-Burned.png"/>
+    </image>
+    <image pan="34.990" stretch="1.000" handcursor="0" tilt="26.540" clickmode="0" rotx="0.000" roty="0.000" height="60" rotz="0.000" fov="21.997" id="Element09" width="442">
+      <source url="media/Tight-Spacing-of-Trees.png"/>
+    </image>
+    <image pan="4.070" stretch="1.000" handcursor="0" tilt="21.490" clickmode="0" rotx="0.000" roty="0.000" height="51" rotz="0.000" fov="16.033" id="Element10" width="265">
+      <source url="media/Ladder-Fules.png"/>
+    </image>
+    <image pan="21.990" stretch="1.000" handcursor="0" tilt="-8.160" clickmode="0" rotx="0.000" roty="0.000" height="60" rotz="0.000" fov="25.920" id="Element11" width="531">
+      <source url="media/Dying-and-Unhealthy-Trees.png"/>
+    </image>
+    <image pan="-42.030" stretch="1.000" handcursor="0" tilt="19.750" clickmode="0" rotx="0.000" roty="0.000" height="59" rotz="0.000" fov="24.351" id="Element12" width="504">
+      <source url="media/History-of-Fire-Prevention.png"/>
+    </image>
+    <image pan="-63.740" stretch="1.000" handcursor="0" tilt="-1.550" clickmode="0" rotx="0.000" roty="0.000" height="59" rotz="0.000" fov="22.153" id="Element13" width="362">
+      <source url="media/Dense-Understory.png"/>
+    </image>
+    <image pan="-24.550" stretch="1.000" handcursor="0" tilt="-20.910" clickmode="0" rotx="0.000" roty="0.000" height="60" rotz="0.000" fov="26.077" id="Element14" width="391">
+      <source url="media/Community-Danger.png"/>
+    </image>
+  </media>
+  <transition zoomin="0" blendtime="1" type="crossdissolve" zoomspeed="2" zoomout="0" blendcolor="0x000000" enabled="0" softedge="0" zoomoutpause="1" zoomfov="20"/>
+  <control simulatemass="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" dblclickfullscreen="0" invertwheel="0" speedwheel="1" lockedwheel="0"/>
+</panorama>

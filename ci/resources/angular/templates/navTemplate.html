@@ -1,0 +1,59 @@
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+	<div class="collapse navbar-collapse" id="main-nav">
+
+      <ul class="nav navbar-nav">
+        <li ng-class="{'active': thisPage=='/home'}"><a href="/ci/home">Home</a></li>
+        <li><a ng-hide="park.isActive || thisPage" >{{ park.pkMenuName }}</a></li>
+        <li class="dropdown active" ng-show="thisPage == '/park' || thisPage == '/map'" style="min-width: 150px;">
+        	<a class="dropdown-toggle" 
+        		data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        		{{ park.pkMenuName }} <span class="caret"></span>
+        	</a>
+          <ul class="dropdown-menu">
+			<li><a ng-href="/ci/park/{{ park.pkInfoHash }}">Park home</a></li>
+            <li><a ng-href="/ci/info#{{ park.pkInfoHash }}">More information</a></li>
+            <li><a ng-href="/ci/map/{{ park.pkInfoHash }}">Map</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select tour &nbsp; &nbsp;  <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+			<li><a href="/ci/park/forest-park">Forest Park: <br>Invasive species</a></li>
+            <li><a href="/ci/park/working-forests">Research forests: <br>Working forests</a></li>
+            <li><a href="/ci/park/ashland">Ashland: Wildfire</a></li>
+            <li><a href="/ci/park/oregon-coast">Oregon coast: <br>Heritage trees</a></li>            
+          </ul>
+        </li>
+
+		<li class="dropdown" ng-class="{'active': thisPage!='/home' && thisPage!='/search' && thisPage != '/map' && thisPage != '/park' && thisPage}" > 
+		<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Info &amp; Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu"><!-- to do -- get these from the DB -->
+			<li><a href="/ci/info">Tour information</a></li>
+            <li><a href="/ci/k-12-educators">For K-12 Educators</a></li>
+            <li><a href="/ci/printable-maps-information-sheets">Printable maps &amp;<br>information sheets</a></li>
+			<li><a href="/ci/contact">Contact Us</a></li>
+          </ul>
+        </li>
+<!--
+<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forest Explorer <span class="glyphicon glyphicon-user"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/ci/user">My Profile</a></li>
+            <li><a href="/ci/user/logout">Logout</a></li>
+          </ul>
+        </li>-->
+		<li ng-class="{'active': thisPage=='/search'}"><a href="/ci/search">Search <span class="glyphicon glyphicon-search"></span></a></li>   
+      </ul>
+    </div>
+	</div>
+</nav>

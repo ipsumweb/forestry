@@ -1,0 +1,46 @@
+<div id="wrap">
+    <!-- Begin page content -->
+    <div class="container" >
+    	<div class="row">
+    		<div class="col-md-3">
+    			<a href="/ci/home">
+    				<img src="/ci/resources/images/_general/logo-exploreOregonForest.png" class="img img-responsive" />
+    			</a>
+    		</div>
+    		<div class="col-md-6">
+	    		<div class="page-header">
+					<h1 ng-bind-html="pageContent.pageTitle"></h1>
+				</div>
+				
+				<div ng-bind-html="trustedPageTextHTML" style="margin-bottom: 20px;">
+				</div>
+			      			      
+			      <form class="form-inline well" >
+					  <div class="form-group" >
+					    <label>Text search:</label>
+					    <input type="text" name="searchText" class="form-control" 
+					    	ng-model="searchText" ng-change="formIsPristine=false" placeholder="start typing ...">
+					  </div>
+				  </form>
+			      
+			      <ul class="list-group" ng-hide="searchText.length < 1 || formIsPristine"> 
+			      	<li class="list-group-item" ng-repeat="item in items | filter:searchText as filtered">
+			      	<strong>{{ item.title }}</strong><br>
+			      	{{ item.txt  }}... 
+			      	<a style="color: #337ab7;" ng-href="/ci{{item.url}}">view &raquo</a>
+			      	</li>
+			      </ul>
+			      
+			      <div class="alert alert-warning" ng-show="searchText.length > 1 && !formIsPristine && !filtered.length " >
+			      	Sorry, no results matched your text search. Please try different text.
+			      </div>
+			      
+    		</div>
+    		
+    		<div class="col-md-3">
+    		 
+    		</div>
+    	</div>
+      
+    </div>
+</div>

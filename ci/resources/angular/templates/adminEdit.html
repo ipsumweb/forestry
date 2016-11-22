@@ -1,0 +1,46 @@
+<div id="wrap">
+    <!-- Begin page content -->
+    <div class="container" >
+    	<div class="row">
+    		<div class="col-md-12">
+				
+				<a class="btn btn-default pull-right" href="/ci/admin/logout">logout</a>
+				
+				<h2>ExploreOregonForests.org - CMS</h2>
+				<p>Welcome to the Content Management System for the Explore Oregon Forests  website. Have fun and be careful what you edit!</p>
+			</div>
+		</div>
+    	<div class="row">
+    		<div class="col-md-6">
+				
+				<Div class="panel panel-default">
+					<div class="panel-heading"><h3>Edit a Park:</h3></div>
+					
+    			 <ul class="list-group">
+					 <li class="list-group-item" ng-repeat="item in parkList">
+					 	<a ng-href="/ci/admin/park/{{item.id}}" >{{ item.pkName }}</a>
+						<!-- TODO: ADD SUB LISTS HERE FOR ITEMS IN THE SUB LIST OF IT -->
+				 	</li>
+				 </ul>
+				 </div>
+				 
+			</div>
+			<div class="col-md-6">	 
+				<Div class="panel panel-default">
+					<div class="panel-heading"><h3>Edit a Basic Page:</h3></div>
+     			 <ul class="list-group">
+ 					 <li class="list-group-item" ng-repeat="item in pageList">
+ 					 	<a ng-href="/ci/admin/page/{{item.pageID}}" >{{ item.pageTitle }}</a>
+ 						<!-- TODO: ADD SUB LISTS HERE FOR ITEMS IN THE SUB LIST OF IT -->
+ 				 	</li>
+ 				 </ul>
+				 </div>
+				 
+    		</div>
+			
+
+
+    	</div>
+      
+    </div>
+</div>

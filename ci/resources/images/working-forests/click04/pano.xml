@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1">
+    <input levelbias="0.400" overlap="1" levelbiashidpi="0.400" levelingpitch="0" height="4676" leveltileurl="tiles/workingForest/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="4676" leveltilesize="510">
+      <level predecode="0" height="4676" preload="0" width="4676"/>
+      <level predecode="0" height="2338" preload="0" width="2338"/>
+      <level predecode="0" height="1169" preload="0" width="1169"/>
+      <level predecode="0" height="584" preload="0" width="584"/>
+      <level predecode="1" height="292" preload="1" width="292"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" fov="70" pan="0"/>
+      <min tilt="-41.3845" fov="5" pan="-180"/>
+      <max tilt="41.3845" fov="120" pan="180"/>
+    </view>
+    <userdata comment="" datetime="2016:04:25 11:13:48" title="" author="" longitude="" description="" source="" tags="Working Forest 360" copyright="" info="" latitude=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label textcolor="0x000000" backgroundalpha="1" borderradius="1" border="0" height="20" wordwrap="1" backgroundcolor="0xffffff" borderalpha="1" textalpha="1" enabled="0" width="180" background="0" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.1176470588235294" handcursor="1" backgroundcolor="0x00aaff" borderalpha="1" mode="2" bordercolor="0xffffff"/>
+      <polyhotspot target="_blank" title="Douglas-Fir " description="updog" url="" id="douglasFir2">
+        <vertex tilt="-8.52" pan="154.3"/>
+        <vertex tilt="1.46" pan="153.59"/>
+        <vertex tilt="12.26" pan="153.64"/>
+        <vertex tilt="19.81" pan="153.79"/>
+        <vertex tilt="23.54" pan="153.95"/>
+        <vertex tilt="26.44" pan="154.17"/>
+        <vertex tilt="30.07" pan="154.18"/>
+        <vertex tilt="33.69" pan="154.67"/>
+        <vertex tilt="38.34" pan="154.48"/>
+        <vertex tilt="38.96" pan="153.7"/>
+        <vertex tilt="36.65" pan="152.75"/>
+        <vertex tilt="27.17" pan="151.82"/>
+        <vertex tilt="19.6" pan="151.45"/>
+        <vertex tilt="12.36" pan="151.33"/>
+        <vertex tilt="0.39" pan="150.92"/>
+        <vertex tilt="-8.01" pan="150.8"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Vine Maple" description="downdog" url="" id="vineMaple">
+        <vertex tilt="-6.95" pan="138.39"/>
+        <vertex tilt="-6.83" pan="140.38"/>
+        <vertex tilt="-6.85" pan="142.63"/>
+        <vertex tilt="-6.64" pan="144.63"/>
+        <vertex tilt="-5.21" pan="144.25"/>
+        <vertex tilt="-4.28" pan="145.49"/>
+        <vertex tilt="-2.77" pan="145.98"/>
+        <vertex tilt="-1.87" pan="145.47"/>
+        <vertex tilt="-0.74" pan="144.23"/>
+        <vertex tilt="0.02" pan="144.37"/>
+        <vertex tilt="1.24" pan="143.26"/>
+        <vertex tilt="1.63" pan="142.3"/>
+        <vertex tilt="1.1" pan="140.87"/>
+        <vertex tilt="1.33" pan="139.59"/>
+        <vertex tilt="1.95" pan="139.89"/>
+        <vertex tilt="3.49" pan="139.73"/>
+        <vertex tilt="3.43" pan="138.28"/>
+        <vertex tilt="2.9" pan="137.36"/>
+        <vertex tilt="3.84" pan="135.89"/>
+        <vertex tilt="3.3" pan="134.65"/>
+        <vertex tilt="2.52" pan="135.97"/>
+        <vertex tilt="1.5" pan="135.98"/>
+        <vertex tilt="0.73" pan="134.5"/>
+        <vertex tilt="-0.69" pan="133.72"/>
+        <vertex tilt="-2.57" pan="133.57"/>
+        <vertex tilt="-3.43" pan="134.43"/>
+        <vertex tilt="-3.97" pan="135.37"/>
+        <vertex tilt="-3.65" pan="136.69"/>
+        <vertex tilt="-4.33" pan="138.08"/>
+        <vertex tilt="-5.87" pan="138.7"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Douglas-Fir" description="updog" url="" id="douglasFir1">
+        <vertex tilt="-22.13" pan="-123.5"/>
+        <vertex tilt="-10.69" pan="-123.92"/>
+        <vertex tilt="0.13" pan="-124.42"/>
+        <vertex tilt="1.45" pan="-123.59"/>
+        <vertex tilt="2.38" pan="-124.81"/>
+        <vertex tilt="2.92" pan="-124.28"/>
+        <vertex tilt="3.62" pan="-125.04"/>
+        <vertex tilt="10.91" pan="-125.38"/>
+        <vertex tilt="13.68" pan="-124.85"/>
+        <vertex tilt="13.86" pan="-125.84"/>
+        <vertex tilt="14.93" pan="-125.54"/>
+        <vertex tilt="16.57" pan="-124.18"/>
+        <vertex tilt="15.22" pan="-122.67"/>
+        <vertex tilt="15.62" pan="-122.3"/>
+        <vertex tilt="18.64" pan="-125.25"/>
+        <vertex tilt="21.6" pan="-126.48"/>
+        <vertex tilt="22.84" pan="-126.34"/>
+        <vertex tilt="22.77" pan="-125.12"/>
+        <vertex tilt="24.41" pan="-125.81"/>
+        <vertex tilt="24.66" pan="-123.84"/>
+        <vertex tilt="25.89" pan="-124.6"/>
+        <vertex tilt="27.73" pan="-126.97"/>
+        <vertex tilt="23.08" pan="-122.19"/>
+        <vertex tilt="25.71" pan="-123.77"/>
+        <vertex tilt="28.7" pan="-126.94"/>
+        <vertex tilt="33.27" pan="-127.22"/>
+        <vertex tilt="33.04" pan="-127.9"/>
+        <vertex tilt="28.84" pan="-127.73"/>
+        <vertex tilt="28.08" pan="-131.05"/>
+        <vertex tilt="28.13" pan="-135.48"/>
+        <vertex tilt="27.67" pan="-131.59"/>
+        <vertex tilt="27.56" pan="-129.65"/>
+        <vertex tilt="26.84" pan="-128.34"/>
+        <vertex tilt="25.11" pan="-133.77"/>
+        <vertex tilt="25.91" pan="-129.88"/>
+        <vertex tilt="23.11" pan="-132.44"/>
+        <vertex tilt="20.86" pan="-135.17"/>
+        <vertex tilt="22.86" pan="-130.11"/>
+        <vertex tilt="21.81" pan="-130.42"/>
+        <vertex tilt="19.43" pan="-133.84"/>
+        <vertex tilt="16.18" pan="-136.5"/>
+        <vertex tilt="19.08" pan="-133.37"/>
+        <vertex tilt="20.36" pan="-131.42"/>
+        <vertex tilt="18.16" pan="-131.97"/>
+        <vertex tilt="15.75" pan="-132.75"/>
+        <vertex tilt="14.09" pan="-136.19"/>
+        <vertex tilt="14.88" pan="-132.51"/>
+        <vertex tilt="11.87" pan="-133.92"/>
+        <vertex tilt="7.93" pan="-136.58"/>
+        <vertex tilt="3.04" pan="-138.31"/>
+        <vertex tilt="5.92" pan="-136.27"/>
+        <vertex tilt="8.85" pan="-134.7"/>
+        <vertex tilt="-7" pan="-137.46"/>
+        <vertex tilt="-8.63" pan="-137.54"/>
+        <vertex tilt="-0.73" pan="-135.41"/>
+        <vertex tilt="-3.01" pan="-134.46"/>
+        <vertex tilt="0.37" pan="-134.62"/>
+        <vertex tilt="7.01" pan="-133.52"/>
+        <vertex tilt="9.44" pan="-131.18"/>
+        <vertex tilt="12.49" pan="-129.31"/>
+        <vertex tilt="7.51" pan="-129.07"/>
+        <vertex tilt="3.11" pan="-130.15"/>
+        <vertex tilt="-2.7" pan="-133.68"/>
+        <vertex tilt="-8.56" pan="-136.36"/>
+        <vertex tilt="-3.8" pan="-133.44"/>
+        <vertex tilt="2.09" pan="-129.29"/>
+        <vertex tilt="-0.41" pan="-129.36"/>
+        <vertex tilt="-3.47" pan="-130.29"/>
+        <vertex tilt="-6.67" pan="-129.27"/>
+        <vertex tilt="-8.32" pan="-126.31"/>
+        <vertex tilt="-4.24" pan="-127.72"/>
+        <vertex tilt="-0.02" pan="-127.5"/>
+        <vertex tilt="0.37" pan="-126.34"/>
+        <vertex tilt="-2.51" pan="-125.71"/>
+        <vertex tilt="-21.69" pan="-124.87"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Big Leaf Maple" description="downdog" url="" id="bigLeafMaple">
+        <vertex tilt="-26.13" pan="-160.98"/>
+        <vertex tilt="-20.9" pan="-161.22"/>
+        <vertex tilt="-16.93" pan="-161.14"/>
+        <vertex tilt="-15.15" pan="-161.07"/>
+        <vertex tilt="-16.37" pan="-159.74"/>
+        <vertex tilt="-16.93" pan="-158.66"/>
+        <vertex tilt="-17.7" pan="-158.35"/>
+        <vertex tilt="-17.68" pan="-157.03"/>
+        <vertex tilt="-16.9" pan="-156.02"/>
+        <vertex tilt="-17.13" pan="-157.72"/>
+        <vertex tilt="-16.29" pan="-158.27"/>
+        <vertex tilt="-16.01" pan="-159.04"/>
+        <vertex tilt="-14.58" pan="-160.21"/>
+        <vertex tilt="-14" pan="-161.07"/>
+        <vertex tilt="-11.72" pan="-161.46"/>
+        <vertex tilt="-8.57" pan="-161.15"/>
+        <vertex tilt="-1.06" pan="-161.63"/>
+        <vertex tilt="2.01" pan="-161.71"/>
+        <vertex tilt="1.22" pan="-160.45"/>
+        <vertex tilt="-0.51" pan="-158.96"/>
+        <vertex tilt="-2.24" pan="-159.67"/>
+        <vertex tilt="-3.25" pan="-159.27"/>
+        <vertex tilt="-5.35" pan="-159.51"/>
+        <vertex tilt="-6.35" pan="-157.79"/>
+        <vertex tilt="-7.57" pan="-156.07"/>
+        <vertex tilt="-7.1" pan="-155.06"/>
+        <vertex tilt="-4.79" pan="-154.82"/>
+        <vertex tilt="-5.01" pan="-153.73"/>
+        <vertex tilt="-4.24" pan="-153.57"/>
+        <vertex tilt="-3.78" pan="-154.66"/>
+        <vertex tilt="-2.31" pan="-154.96"/>
+        <vertex tilt="-2.23" pan="-154.34"/>
+        <vertex tilt="-0.9" pan="-154.33"/>
+        <vertex tilt="-1.28" pan="-152.55"/>
+        <vertex tilt="-0.89" pan="-150.62"/>
+        <vertex tilt="-0.42" pan="-149.78"/>
+        <vertex tilt="0.04" pan="-151.08"/>
+        <vertex tilt="-0.12" pan="-153.01"/>
+        <vertex tilt="0.59" pan="-154.72"/>
+        <vertex tilt="1.37" pan="-153.47"/>
+        <vertex tilt="2.21" pan="-150.53"/>
+        <vertex tilt="3.52" pan="-149.29"/>
+        <vertex tilt="5.07" pan="-149.13"/>
+        <vertex tilt="5.79" pan="-150.89"/>
+        <vertex tilt="6.16" pan="-149.66"/>
+        <vertex tilt="7.08" pan="-149.65"/>
+        <vertex tilt="7.11" pan="-151.27"/>
+        <vertex tilt="8.12" pan="-151.42"/>
+        <vertex tilt="8.91" pan="-152.58"/>
+        <vertex tilt="10.03" pan="-150.94"/>
+        <vertex tilt="11.31" pan="-150.47"/>
+        <vertex tilt="11.89" pan="-152.17"/>
+        <vertex tilt="12.55" pan="-154.44"/>
+        <vertex tilt="11.9" pan="-156.57"/>
+        <vertex tilt="11.83" pan="-157.76"/>
+        <vertex tilt="12.28" pan="-157.05"/>
+        <vertex tilt="12.74" pan="-156.73"/>
+        <vertex tilt="14.01" pan="-156.02"/>
+        <vertex tilt="14.41" pan="-157.52"/>
+        <vertex tilt="15.39" pan="-159.9"/>
+        <vertex tilt="14.56" pan="-161.57"/>
+        <vertex tilt="20.76" pan="-162.54"/>
+        <vertex tilt="19.63" pan="-160.94"/>
+        <vertex tilt="17.02" pan="-159.82"/>
+        <vertex tilt="17.53" pan="-158.23"/>
+        <vertex tilt="15.31" pan="-158.07"/>
+        <vertex tilt="14.85" pan="-156.65"/>
+        <vertex tilt="15.73" pan="-155.77"/>
+        <vertex tilt="17.07" pan="-156.72"/>
+        <vertex tilt="16.07" pan="-154.43"/>
+        <vertex tilt="17.87" pan="-153.4"/>
+        <vertex tilt="17.82" pan="-151.99"/>
+        <vertex tilt="16.45" pan="-150.44"/>
+        <vertex tilt="17.78" pan="-149.65"/>
+        <vertex tilt="19.29" pan="-149.8"/>
+        <vertex tilt="20.02" pan="-149.02"/>
+        <vertex tilt="19.68" pan="-148.1"/>
+        <vertex tilt="20.02" pan="-146.88"/>
+        <vertex tilt="21.17" pan="-146.56"/>
+        <vertex tilt="22.68" pan="-147.61"/>
+        <vertex tilt="23.35" pan="-149.46"/>
+        <vertex tilt="23.61" pan="-151.48"/>
+        <vertex tilt="23.94" pan="-152.74"/>
+        <vertex tilt="24.26" pan="-151.08"/>
+        <vertex tilt="25.11" pan="-151.94"/>
+        <vertex tilt="25.75" pan="-153.04"/>
+        <vertex tilt="25.58" pan="-155.42"/>
+        <vertex tilt="26.42" pan="-157.9"/>
+        <vertex tilt="26.69" pan="-159.05"/>
+        <vertex tilt="27.92" pan="-159.54"/>
+        <vertex tilt="27.91" pan="-160.34"/>
+        <vertex tilt="27.98" pan="-161.27"/>
+        <vertex tilt="28.59" pan="-162.63"/>
+        <vertex tilt="28.69" pan="-160.15"/>
+        <vertex tilt="27.78" pan="-157.5"/>
+        <vertex tilt="28.03" pan="-153.43"/>
+        <vertex tilt="27.55" pan="-151.53"/>
+        <vertex tilt="29.66" pan="-149.48"/>
+        <vertex tilt="29.69" pan="-154.05"/>
+        <vertex tilt="30.75" pan="-156.61"/>
+        <vertex tilt="29.74" pan="-158.62"/>
+        <vertex tilt="29.05" pan="-161.59"/>
+        <vertex tilt="29.29" pan="-162.55"/>
+        <vertex tilt="31.27" pan="-160.63"/>
+        <vertex tilt="31.81" pan="-161.11"/>
+        <vertex tilt="31.06" pan="-162.72"/>
+        <vertex tilt="31.56" pan="-164.25"/>
+        <vertex tilt="30.66" pan="-164"/>
+        <vertex tilt="30.57" pan="-164.96"/>
+        <vertex tilt="30.06" pan="-165.44"/>
+        <vertex tilt="30.59" pan="-167.03"/>
+        <vertex tilt="31.69" pan="-166.64"/>
+        <vertex tilt="31.48" pan="-168.14"/>
+        <vertex tilt="30.69" pan="-169.94"/>
+        <vertex tilt="30.45" pan="-170.72"/>
+        <vertex tilt="28.62" pan="-170.78"/>
+        <vertex tilt="27.62" pan="-166.77"/>
+        <vertex tilt="26.5" pan="-165.98"/>
+        <vertex tilt="26.07" pan="-168.1"/>
+        <vertex tilt="26.27" pan="-169.98"/>
+        <vertex tilt="25.76" pan="-169.9"/>
+        <vertex tilt="24.99" pan="-167.31"/>
+        <vertex tilt="24.59" pan="-170.59"/>
+        <vertex tilt="21.14" pan="-170.48"/>
+        <vertex tilt="21.3" pan="-167.6"/>
+        <vertex tilt="20.65" pan="-166.34"/>
+        <vertex tilt="20.25" pan="-167.52"/>
+        <vertex tilt="20" pan="-164.84"/>
+        <vertex tilt="17.77" pan="-164.67"/>
+        <vertex tilt="17.29" pan="-166.09"/>
+        <vertex tilt="16.5" pan="-167.73"/>
+        <vertex tilt="15.97" pan="-165.93"/>
+        <vertex tilt="15.86" pan="-164.74"/>
+        <vertex tilt="12.58" pan="-163.47"/>
+        <vertex tilt="8.35" pan="-163.3"/>
+        <vertex tilt="9.22" pan="-166.91"/>
+        <vertex tilt="7.4" pan="-164.87"/>
+        <vertex tilt="8.14" pan="-167.14"/>
+        <vertex tilt="7.44" pan="-167.6"/>
+        <vertex tilt="5.92" pan="-164.63"/>
+        <vertex tilt="4.99" pan="-163.84"/>
+        <vertex tilt="4.5" pan="-165.64"/>
+        <vertex tilt="3.63" pan="-166.88"/>
+        <vertex tilt="2.15" pan="-166.1"/>
+        <vertex tilt="1.37" pan="-164.85"/>
+        <vertex tilt="2" pan="-163.29"/>
+        <vertex tilt="-26.41" pan="-162.98"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="White Adler" description="downdog" url="" id="whiteAdler">
+        <vertex tilt="3.01" pan="-68.25"/>
+        <vertex tilt="4.99" pan="-68.59"/>
+        <vertex tilt="7.95" pan="-70.84"/>
+        <vertex tilt="10.2" pan="-73.03"/>
+        <vertex tilt="13.37" pan="-74.5"/>
+        <vertex tilt="14.83" pan="-75.37"/>
+        <vertex tilt="15.37" pan="-74.21"/>
+        <vertex tilt="16.53" pan="-73.67"/>
+        <vertex tilt="15.92" pan="-75.47"/>
+        <vertex tilt="18.53" pan="-76.46"/>
+        <vertex tilt="20.01" pan="-75.74"/>
+        <vertex tilt="21.75" pan="-74.59"/>
+        <vertex tilt="21.64" pan="-73.8"/>
+        <vertex tilt="20.19" pan="-73.72"/>
+        <vertex tilt="20.35" pan="-72.87"/>
+        <vertex tilt="21.47" pan="-72.54"/>
+        <vertex tilt="22.55" pan="-72.56"/>
+        <vertex tilt="22.98" pan="-74.1"/>
+        <vertex tilt="23.34" pan="-75.75"/>
+        <vertex tilt="22.14" pan="-76.1"/>
+        <vertex tilt="22.97" pan="-77.25"/>
+        <vertex tilt="21.99" pan="-78.4"/>
+        <vertex tilt="22.47" pan="-80.36"/>
+        <vertex tilt="23.47" pan="-79.87"/>
+        <vertex tilt="24.11" pan="-81.47"/>
+        <vertex tilt="23.42" pan="-82.35"/>
+        <vertex tilt="22.32" pan="-82.69"/>
+        <vertex tilt="21.89" pan="-85.93"/>
+        <vertex tilt="20.43" pan="-85.8"/>
+        <vertex tilt="19.36" pan="-86.3"/>
+        <vertex tilt="17.44" pan="-85.07"/>
+        <vertex tilt="18.31" pan="-87.67"/>
+        <vertex tilt="19.08" pan="-88.38"/>
+        <vertex tilt="18.69" pan="-90.15"/>
+        <vertex tilt="18.2" pan="-91.44"/>
+        <vertex tilt="17.1" pan="-93.79"/>
+        <vertex tilt="16.54" pan="-91.62"/>
+        <vertex tilt="17.12" pan="-90.49"/>
+        <vertex tilt="16" pan="-88.26"/>
+        <vertex tilt="17.32" pan="-89.36"/>
+        <vertex tilt="17.58" pan="-88.16"/>
+        <vertex tilt="16.6" pan="-86.19"/>
+        <vertex tilt="16.77" pan="-85.01"/>
+        <vertex tilt="14.55" pan="-81.58"/>
+        <vertex tilt="14.45" pan="-82.43"/>
+        <vertex tilt="13.62" pan="-82.37"/>
+        <vertex tilt="14.22" pan="-83.9"/>
+        <vertex tilt="13.13" pan="-84.93"/>
+        <vertex tilt="12.84" pan="-83.46"/>
+        <vertex tilt="12.15" pan="-81.88"/>
+        <vertex tilt="10.7" pan="-81.76"/>
+        <vertex tilt="9.08" pan="-81.13"/>
+        <vertex tilt="8.66" pan="-80.32"/>
+        <vertex tilt="10.5" pan="-79.08"/>
+        <vertex tilt="11.12" pan="-76.87"/>
+        <vertex tilt="5.4" pan="-71.48"/>
+        <vertex tilt="8.21" pan="-80.33"/>
+        <vertex tilt="9.27" pan="-82.25"/>
+        <vertex tilt="10.99" pan="-83.2"/>
+        <vertex tilt="10.54" pan="-83.29"/>
+        <vertex tilt="11.59" pan="-84.8"/>
+        <vertex tilt="9.94" pan="-89.52"/>
+        <vertex tilt="9.81" pan="-91.98"/>
+        <vertex tilt="10.22" pan="-94.05"/>
+        <vertex tilt="11.63" pan="-94.77"/>
+        <vertex tilt="12.09" pan="-97.97"/>
+        <vertex tilt="10.85" pan="-95.97"/>
+        <vertex tilt="10.14" pan="-97"/>
+        <vertex tilt="9.19" pan="-98.35"/>
+        <vertex tilt="8.68" pan="-101.43"/>
+        <vertex tilt="7.67" pan="-101.03"/>
+        <vertex tilt="8.41" pan="-97.87"/>
+        <vertex tilt="9.67" pan="-96.13"/>
+        <vertex tilt="9.12" pan="-95.25"/>
+        <vertex tilt="7.63" pan="-95.96"/>
+        <vertex tilt="6.68" pan="-97.23"/>
+        <vertex tilt="6.91" pan="-98.42"/>
+        <vertex tilt="5.81" pan="-98.49"/>
+        <vertex tilt="6.05" pan="-96.91"/>
+        <vertex tilt="6.84" pan="-95.01"/>
+        <vertex tilt="6.92" pan="-93.98"/>
+        <vertex tilt="5.66" pan="-94.46"/>
+        <vertex tilt="4.95" pan="-93.43"/>
+        <vertex tilt="6.76" pan="-92.4"/>
+        <vertex tilt="6.75" pan="-91.06"/>
+        <vertex tilt="5.89" pan="-91.46"/>
+        <vertex tilt="4.78" pan="-90.68"/>
+        <vertex tilt="5" pan="-89.19"/>
+        <vertex tilt="4.83" pan="-87.87"/>
+        <vertex tilt="3.73" pan="-86.8"/>
+        <vertex tilt="1.79" pan="-86.37"/>
+        <vertex tilt="5.28" pan="-86.31"/>
+        <vertex tilt="5.85" pan="-88.16"/>
+        <vertex tilt="6.87" pan="-88.46"/>
+        <vertex tilt="7.7" pan="-86.58"/>
+        <vertex tilt="6.97" pan="-85.36"/>
+        <vertex tilt="7.34" pan="-84.27"/>
+        <vertex tilt="7.69" pan="-83.28"/>
+        <vertex tilt="7.12" pan="-79.62"/>
+        <vertex tilt="6.51" pan="-77.31"/>
+        <vertex tilt="5.25" pan="-73.24"/>
+        <vertex tilt="5.12" pan="-76.08"/>
+        <vertex tilt="4.25" pan="-76.96"/>
+        <vertex tilt="4.92" pan="-74.28"/>
+        <vertex tilt="4.74" pan="-73.39"/>
+        <vertex tilt="4.62" pan="-71.92"/>
+        <vertex tilt="3.39" pan="-69.3"/>
+        <vertex tilt="2.81" pan="-68.76"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Oregon White Oak" description="updog" url="" id="whiteOak">
+        <vertex tilt="-14.45" pan="52.87"/>
+        <vertex tilt="-11.8" pan="53.25"/>
+        <vertex tilt="-11.59" pan="55.18"/>
+        <vertex tilt="-11.27" pan="59.1"/>
+        <vertex tilt="-10.21" pan="64.93"/>
+        <vertex tilt="-6.23" pan="64.12"/>
+        <vertex tilt="-3.46" pan="65.56"/>
+        <vertex tilt="-1.11" pan="65.2"/>
+        <vertex tilt="1.02" pan="67.15"/>
+        <vertex tilt="2.4" pan="66.94"/>
+        <vertex tilt="3.78" pan="63.97"/>
+        <vertex tilt="5.72" pan="65.13"/>
+        <vertex tilt="6.64" pan="61.89"/>
+        <vertex tilt="7.79" pan="64.15"/>
+        <vertex tilt="12.94" pan="65.48"/>
+        <vertex tilt="13.36" pan="61.7"/>
+        <vertex tilt="15.5" pan="61.04"/>
+        <vertex tilt="14.26" pan="59.89"/>
+        <vertex tilt="15.1" pan="58.86"/>
+        <vertex tilt="19.71" pan="60.79"/>
+        <vertex tilt="19.08" pan="58.76"/>
+        <vertex tilt="20" pan="58.09"/>
+        <vertex tilt="19.95" pan="56.98"/>
+        <vertex tilt="21.5" pan="56.45"/>
+        <vertex tilt="21.03" pan="54.57"/>
+        <vertex tilt="21.43" pan="53.43"/>
+        <vertex tilt="22.21" pan="53.5"/>
+        <vertex tilt="22" pan="52.59"/>
+        <vertex tilt="21.1" pan="51.82"/>
+        <vertex tilt="21.34" pan="50.82"/>
+        <vertex tilt="22.63" pan="49.74"/>
+        <vertex tilt="20.69" pan="47.88"/>
+        <vertex tilt="21.38" pan="46.17"/>
+        <vertex tilt="23.16" pan="46.4"/>
+        <vertex tilt="23.62" pan="44.69"/>
+        <vertex tilt="22.44" pan="43.6"/>
+        <vertex tilt="20.03" pan="43.83"/>
+        <vertex tilt="17.68" pan="43.13"/>
+        <vertex tilt="16.61" pan="42.58"/>
+        <vertex tilt="15.87" pan="40.63"/>
+        <vertex tilt="13.61" pan="40.16"/>
+        <vertex tilt="12.17" pan="37.76"/>
+        <vertex tilt="11.49" pan="35"/>
+        <vertex tilt="9.04" pan="35.14"/>
+        <vertex tilt="7.18" pan="36.43"/>
+        <vertex tilt="6.9" pan="33.99"/>
+        <vertex tilt="5" pan="33.68"/>
+        <vertex tilt="3.85" pan="33.6"/>
+        <vertex tilt="3.97" pan="31.42"/>
+        <vertex tilt="1.76" pan="31.41"/>
+        <vertex tilt="1.85" pan="33.51"/>
+        <vertex tilt="0.54" pan="33.05"/>
+        <vertex tilt="-1.77" pan="32.89"/>
+        <vertex tilt="-2.25" pan="34.94"/>
+        <vertex tilt="-4.09" pan="33.18"/>
+        <vertex tilt="-5.71" pan="33.55"/>
+        <vertex tilt="-5.59" pan="35.38"/>
+        <vertex tilt="-4.53" pan="38.25"/>
+        <vertex tilt="-5.33" pan="39.97"/>
+        <vertex tilt="-4.79" pan="42.25"/>
+        <vertex tilt="-7.04" pan="39.57"/>
+        <vertex tilt="-7.37" pan="41.3"/>
+        <vertex tilt="-6.44" pan="44.37"/>
+        <vertex tilt="-7.84" pan="46.03"/>
+        <vertex tilt="-9.24" pan="46.59"/>
+        <vertex tilt="-9.09" pan="45.64"/>
+        <vertex tilt="-10.93" pan="43.43"/>
+        <vertex tilt="-12.23" pan="43.9"/>
+        <vertex tilt="-11.77" pan="46.19"/>
+        <vertex tilt="-13.66" pan="46.83"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Mountain Ash" description="downdog" url="" id="mountAsh">
+        <vertex tilt="-9.99" pan="93.52"/>
+        <vertex tilt="-10.91" pan="90.56"/>
+        <vertex tilt="-11.6" pan="87.63"/>
+        <vertex tilt="-11.77" pan="85.9"/>
+        <vertex tilt="-10.37" pan="86.39"/>
+        <vertex tilt="-9.12" pan="87.88"/>
+        <vertex tilt="-6.86" pan="88.68"/>
+        <vertex tilt="-3.88" pan="88.56"/>
+        <vertex tilt="-3.48" pan="92.36"/>
+        <vertex tilt="-5.56" pan="94.78"/>
+        <vertex tilt="-9.38" pan="94.73"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Hawthorn" description="downdog" url="" id="hawthorn">
+        <vertex tilt="-13.86" pan="73.57"/>
+        <vertex tilt="-12.23" pan="73.25"/>
+        <vertex tilt="-11.92" pan="71.65"/>
+        <vertex tilt="-9.95" pan="69.5"/>
+        <vertex tilt="-9.14" pan="67.2"/>
+        <vertex tilt="-11.62" pan="66.15"/>
+        <vertex tilt="-11.82" pan="64.88"/>
+        <vertex tilt="-13.31" pan="63.28"/>
+        <vertex tilt="-13.51" pan="60.71"/>
+        <vertex tilt="-15.14" pan="60.05"/>
+        <vertex tilt="-15.6" pan="61.52"/>
+        <vertex tilt="-15.13" pan="64.91"/>
+        <vertex tilt="-14.69" pan="69.39"/>
+        <vertex tilt="-14.17" pan="72.29"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Pacific Dogwood" description="downdog" url="" id="dogwood">
+        <vertex tilt="5.68" pan="110.44"/>
+        <vertex tilt="8.81" pan="114.17"/>
+        <vertex tilt="11.4" pan="118.58"/>
+        <vertex tilt="15.48" pan="121.39"/>
+        <vertex tilt="17.6" pan="122.94"/>
+        <vertex tilt="18.63" pan="120.46"/>
+        <vertex tilt="16.29" pan="119.55"/>
+        <vertex tilt="14.18" pan="117.59"/>
+        <vertex tilt="14.77" pan="116.46"/>
+        <vertex tilt="16.33" pan="116.73"/>
+        <vertex tilt="16.72" pan="117.66"/>
+        <vertex tilt="17.86" pan="116.07"/>
+        <vertex tilt="17.87" pan="114.58"/>
+        <vertex tilt="19.12" pan="114.77"/>
+        <vertex tilt="19.55" pan="116.11"/>
+        <vertex tilt="19.1" pan="117.27"/>
+        <vertex tilt="20.9" pan="117.47"/>
+        <vertex tilt="22.85" pan="116.35"/>
+        <vertex tilt="22.7" pan="114.37"/>
+        <vertex tilt="22.27" pan="113.17"/>
+        <vertex tilt="22.26" pan="111.88"/>
+        <vertex tilt="21.42" pan="111.31"/>
+        <vertex tilt="21.91" pan="110.02"/>
+        <vertex tilt="19.92" pan="110.24"/>
+        <vertex tilt="18.9" pan="111.67"/>
+        <vertex tilt="15.3" pan="111.14"/>
+        <vertex tilt="15.34" pan="109.62"/>
+        <vertex tilt="13.42" pan="109.2"/>
+        <vertex tilt="12.39" pan="110.38"/>
+        <vertex tilt="10.15" pan="109.65"/>
+        <vertex tilt="8.35" pan="110.1"/>
+        <vertex tilt="7.88" pan="110.17"/>
+        <vertex tilt="7.02" pan="110.16"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Pacific Madrone" description="downdog" url="" id="madrone">
+        <vertex tilt="7.45" pan="35.62"/>
+        <vertex tilt="7.25" pan="33.73"/>
+        <vertex tilt="4.07" pan="33.15"/>
+        <vertex tilt="4.16" pan="31.22"/>
+        <vertex tilt="1.53" pan="31.08"/>
+        <vertex tilt="1.52" pan="32.86"/>
+        <vertex tilt="0.52" pan="32.02"/>
+        <vertex tilt="0.36" pan="30.39"/>
+        <vertex tilt="-1.83" pan="29.86"/>
+        <vertex tilt="-3.31" pan="30.49"/>
+        <vertex tilt="-3.46" pan="31.42"/>
+        <vertex tilt="-5.03" pan="30.73"/>
+        <vertex tilt="-5.21" pan="28.85"/>
+        <vertex tilt="-6.46" pan="28.46"/>
+        <vertex tilt="-6.47" pan="26.65"/>
+        <vertex tilt="-4.75" pan="25.46"/>
+        <vertex tilt="-2.15" pan="26.09"/>
+        <vertex tilt="0.13" pan="27.42"/>
+        <vertex tilt="1.07" pan="28.91"/>
+        <vertex tilt="1.54" pan="28.98"/>
+        <vertex tilt="0.99" pan="26.32"/>
+        <vertex tilt="3.1" pan="26.95"/>
+        <vertex tilt="5.11" pan="27.02"/>
+        <vertex tilt="5.72" pan="28.5"/>
+        <vertex tilt="5.75" pan="27.17"/>
+        <vertex tilt="6.37" pan="26.62"/>
+        <vertex tilt="7.51" pan="26.7"/>
+        <vertex tilt="8.79" pan="27.79"/>
+        <vertex tilt="9.44" pan="29.64"/>
+        <vertex tilt="9.56" pan="31.26"/>
+        <vertex tilt="8.34" pan="32.57"/>
+        <vertex tilt="9.23" pan="33.02"/>
+        <vertex tilt="9.7" pan="34.69"/>
+      </polyhotspot>
+      <polyhotspot target="_blank" title="Oregon Ash" description="updog" url="" id="oregonAsh">
+        <vertex tilt="-10.47" pan="85.74"/>
+        <vertex tilt="-11.99" pan="85.34"/>
+        <vertex tilt="-12.4" pan="81.49"/>
+        <vertex tilt="-13.03" pan="78.77"/>
+        <vertex tilt="-10.99" pan="73.72"/>
+        <vertex tilt="-4.82" pan="79.94"/>
+        <vertex tilt="-3.37" pan="84.18"/>
+        <vertex tilt="-6.01" pan="88.21"/>
+        <vertex tilt="-7.81" pan="87.57"/>
+        <vertex tilt="-8.71" pan="86.48"/>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <image tilt="-10.740" fov="15.996" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="-169.480" height="108" clickmode="0" width="428" id="Element01">
+        <source url="media/pointer__0001_pointer_0006_Big-Leaf-Maple.png"/>
+      </image>
+      <image tilt="4.160" fov="16.638" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="144.920" height="140" clickmode="0" width="362" id="Element02">
+        <source url="media/pointer__0001_pointer_0000s_0002_doug-fir.png"/>
+      </image>
+      <image tilt="-5.060" fov="14.839" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="133.190" height="108" clickmode="0" width="355" id="Element03">
+        <source url="media/pointer__0001_pointer_0003_Vine-Maple.png"/>
+      </image>
+      <image tilt="8.000" fov="18.180" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="103.140" height="108" clickmode="0" width="461" id="Element04">
+        <source url="media/pointer__0001_pointer_0002_Pacific-Dogwood.png"/>
+      </image>
+      <image tilt="-11.340" fov="19.079" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="2.000" pan="83.950" height="108" clickmode="0" width="402" id="Element05">
+        <source url="media/pointer__0001_pointer_0001_Mountain-Ash.png"/>
+      </image>
+      <image tilt="-5.610" fov="16.381" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="76.680" height="140" clickmode="0" width="361" id="Element06">
+        <source url="media/pointer__0001_pointer_0000s_0001_oregon-ash.png"/>
+      </image>
+      <image tilt="-15.170" fov="12.912" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="61.850" height="108" clickmode="0" width="318" id="Element07">
+        <source url="media/pointer__0001_pointer_0000_Hawthorn.png"/>
+      </image>
+      <image tilt="12.060" fov="24.475" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="39.950" height="140" clickmode="0" width="498" id="Element08">
+        <source url="media/pointer__0001_pointer_0000s_0000_white-oak.png"/>
+      </image>
+      <image tilt="-4.510" fov="21.649" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="18.610" height="108" clickmode="0" width="456" id="Element09">
+        <source url="media/pointer__0001_pointer_0005_Pacific-Madrone.png"/>
+      </image>
+      <image tilt="10.120" fov="19.208" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="-85.690" height="108" clickmode="0" width="369" id="Element11">
+        <source url="media/pointer__0001_pointer_0004_White-Adler.png"/>
+      </image>
+      <image tilt="-10.190" fov="14.968" rotx="0.000" handcursor="0" roty="0.000" stretch="1.000" rotz="0.000" pan="-131.320" height="140" clickmode="0" width="362" id="Element12">
+        <source url="media/pointer__0001_pointer_0000s_0002_doug-fir.png"/>
+      </image>
+      <lensflare tilt="29.34" blinding="50" alpha="80" pan="147.39" color="0xffffff" type="3" id="Lensflare01"/>
+    </media>
+    <transition zoomfov="20" zoomoutpause="1" blendtime="1" zoomspeed="2" blendcolor="0x000000" zoomout="0" enabled="0" softedge="0" type="crossdissolve" zoomin="0"/>
+    <control lockedmouse="0" invertcontrol="1" invertwheel="0" lockedwheel="0" simulatemass="1" hideabout="0" sensitivity="8" contextfullscreen="0" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" speedwheel="1">
+      <menulink text="" url=""/>
+    </control>
+  </panorama>
+</tour>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1">
+  <input overlap="1" levelingpitch="0" leveltileurl="tiles/forestpark2small/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3001" leveltilesize="510" levelingroll="0" width="3001" levelbiashidpi="0.400" levelbias="0.400">
+    <level predecode="0" preload="0" height="3001" width="3001"/>
+    <level predecode="0" preload="0" height="1500" width="1500"/>
+    <level predecode="0" preload="0" height="750" width="750"/>
+    <level predecode="1" preload="1" height="375" width="375"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view pannorth="0" fovmode="0">
+    <start pan="-156.03" tilt="-9.31" fov="70"/>
+    <min pan="-180" tilt="-61.3698" fov="5"/>
+    <max pan="180" tilt="61.3698" fov="120"/>
+  </view>
+  <userdata latitude="" info="" title="" datetime="2015:11:02 15:52:36" description="" longitude="" copyright="" author="" source="" tags="Forest Park3" comment=""/>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label borderradius="1" backgroundalpha="0.8823529411764706" borderalpha="1" textalpha="1" border="1" height="20" wordwrap="1" enabled="1" backgroundcolor="0x000010" bordercolor="0x000000" background="1" width="180" textcolor="0x000000"/>
+    <polystyle mode="0" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+    <hotspot pan="-154.83" target="_blank" title="Welcome to Forest Park" tilt="-8" description="" skinid="ht_url" url="" id="welcome"/>
+    <hotspot pan="168.15" target="_blank" title="What is an Invasive Species" tilt="-11.68" description="" skinid="ht_url" url="" id="invasive"/>
+    <hotspot pan="86.39" target="_blank" title="Green Isn't Always Good" tilt="-10.68" description="" skinid="ht_url" url="" id="greennogood"/>
+    <hotspot pan="-100.94" target="_blank" title="Most Wanted Invasive Species" tilt="2.51" description="" skinid="ht_url" url="" id="mostWanted"/>
+  </hotspots>
+  <media>
+    <image pan="168.380" stretch="1.000" handcursor="0" tilt="-7.930" clickmode="0" rotx="0.000" roty="0.000" height="61" rotz="0.000" fov="30.000" id="Element03" width="538">
+      <source url="media/What-is-an-Invasive-Species.png"/>
+    </image>
+    <image pan="85.710" stretch="1.000" handcursor="0" tilt="-6.450" clickmode="0" rotx="0.000" roty="0.000" height="59" rotz="0.000" fov="30.000" id="Element04" width="483">
+      <source url="media/Green-Isn’t-Always-Good.png"/>
+    </image>
+    <image pan="-100.710" stretch="1.000" handcursor="0" tilt="6.080" clickmode="0" rotx="0.000" roty="0.000" height="60" rotz="0.000" fov="34.237" id="Element05" width="589">
+      <source url="media/Most-Wanted-Invasive-Species.png"/>
+    </image>
+    <image pan="-156.340" stretch="1.000" handcursor="0" tilt="2.950" clickmode="0" rotx="0.000" roty="0.000" height="211" rotz="0.000" fov="30.000" id="Element01" width="892">
+      <source url="media/welcomeFP.png"/>
+    </image>
+    <image pan="-155.170" stretch="1.000" handcursor="0" tilt="-4.460" clickmode="0" rotx="0.000" roty="0.000" height="52" rotz="0.000" fov="19.172" id="Element02" width="252">
+      <source url="media/Introduction.png"/>
+    </image>
+    <lensflare pan="68.61" type="3" tilt="44.05" blinding="50" alpha="80" color="0xffffff" id="Lensflare01"/>
+  </media>
+  <transition zoomin="0" blendtime="1" type="crossdissolve" zoomspeed="2" zoomout="0" blendcolor="0x000000" enabled="0" softedge="0" zoomoutpause="1" zoomfov="20"/>
+  <control simulatemass="1" sensitivity="8" lockedkeyboard="0" contextfullscreen="0" hideabout="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" dblclickfullscreen="0" invertwheel="0" speedwheel="1" lockedwheel="0"/>
+</panorama>

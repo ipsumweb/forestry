@@ -1,0 +1,60 @@
+<div id="wrap">
+    <!-- Begin page content -->
+    <div class="container" >
+    	<div class="row">
+    		<div class="col-md-12">
+				<p>
+					<a class="btn btn-default" href="/ci/admin/edit">&laquo; back to content list</a>
+					<a class="btn btn-default pull-right" href="/ci/admin/logout">logout</a>
+				</p>
+				
+				<ol class="breadcrumb">
+				  <li><a href="/ci/admin/edit">CMS home page</a></li>
+				  <li><a>Park "{{ park.cleanName }}"</a></li>
+
+				</ol>
+				
+				<h4>Editing Park "{{ park.cleanName }}"</h4>
+			</div>
+		</div>
+    	<div class="row">
+    		<div class="col-md-8">
+				<div class="well">
+					<form name="parkInfo">
+				  	  <div class="form-group">
+				    <label>Park name</label>
+				    <input ng-model="formData.pkName"  class="form-control" />
+				  	</div>
+				  	<div class="form-group">
+				    <label>Park home text</label>
+				    <textarea ng-model="formData.pkHomeText" ui-tinymce="tinymceOptions" class="form-control"></textarea>
+				  	</div>
+				  	<button type="submit" class="btn btn-success" ng-click="saveParkInfo()">Save</button>
+					</form>
+				</div>
+				
+				<div class="alert alert-danger" ng-show="showError">
+					{{ scope.showError }}
+				</div>
+				<div class="alert alert-success" ng-show="showSuccess">
+					Great, this park has been updated. <a href="/ci/admin/edit">Go back to content list...</a>
+				</div>
+			</div>
+				
+			<div class="col-md-4">
+				<h4>Or, choose a map popup item for this park:</h4>
+    			 <ul class="list-group">					 
+					 <li class="list-group-item" ng-repeat="item in modalList">
+					 	<a ng-href="/ci/admin/modal/{{item.modalItemID}}" > {{ item.itemTitle }} &raquo;</a>
+				 	</li>
+				 </ul>
+
+				 
+
+    		</div>
+			
+
+    	</div>
+      
+    </div>
+</div>

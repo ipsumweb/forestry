@@ -1,0 +1,59 @@
+<style type="text/css">
+/* this is specific to the map pages */
+	html, body { height: 100%; margin: 0; padding: 0; }
+	
+	#gmaps, .container-fluid { height: 100% }
+	
+	#titleCard { padding: 40px;}
+
+	.container-fluid { padding: 0px; }
+	
+	.navbar.navbar-inverse.navbar-static-top {
+		position: absolute;
+	}
+
+	
+	.carousel-indicators {
+		bottom: -40px;
+	}
+	
+	.carousel-indicators li {
+	    border: 1px solid black;
+	    background: black;
+	}
+	
+	.mainModal .modal-body { padding: 0px; }
+	.add-pad {padding: 25px;}
+	.mainModal .modal-header { border-bottom: 1px solid #ffdc4b; }
+	.mainModal .modal-footer { border-top: 1px solid #ffdc4b; margin-top: 0px;  }
+	.mainModal .modal-content { border: 1px solid #ffdc4b; border-radius: 0px; background-color: black;}
+	.modal-title { text-align: center; }
+	
+	.close {opacity: 1;}
+		
+	.carousel-control { top: 40%; bottom: 40%; width: 5%; }
+	.carousel-control.left, .carousel-control.right { background-image: none;}
+		
+	.carousel-inner .item p { padding: 20px 120px; }
+	.carousel-example-generic { margin-bottom: 40px;}
+	
+	img.resizer {
+	    border: none;
+	    height: auto;
+	    max-width: 100%;
+	    width: auto;
+	}
+	
+	.nav-tabs.nav-justified>li { 
+		text-align: center; 
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+    }
+    .nav-tabs.nav-justified>li.active {
+    	background: #575e4b;
+    }
+	
+	area:hover {
+		cursor: pointer;
+	}
+</style>

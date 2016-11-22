@@ -1,0 +1,54 @@
+<!-- Admin navbar --> 
+    <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+	<div class="collapse navbar-collapse" id="main-nav">
+
+	    <ul class="nav navbar-nav">
+	        <li><a href="/ci/home">&laquo; back to Forestry home</a></li>
+		</ul>
+
+      
+	<ul class="nav navbar-nav">
+		
+        <li class="dropdown active" >
+        	<a class="dropdown-toggle" 
+        		data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        		Choose a Park: <span class="caret"></span>
+        	</a>
+          <ul class="dropdown-menu"><!-- get list of parks here -->
+			<li><a ng-repeat="park in parkMenu" ng-href="/ci/admin/{{park.URI}}"> {{ park.parkName }}</a></li>
+          </ul>
+        </li>
+
+
+        <li class="dropdown active" >
+        	<a class="dropdown-toggle" 
+        		data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        		Choose a Standard Page: <span class="caret"></span>
+        	</a>
+          <ul class="dropdown-menu">
+			<li><a ng-repeat="page in pageMenu" ng-href="/ci/admin/{{page.URI}}" > {{ page.pageName }}</a></li>
+          </ul>
+        </li>
+
+		</ul>
+        
+		
+	    <ul class="nav navbar-nav">
+			<li><a href="/ci/admin/logout">Logout Admin <span class="glyphicon glyphicon-remove"></span></a></li>
+		</ul>
+		   
+    </div>
+	</div>
+</nav>

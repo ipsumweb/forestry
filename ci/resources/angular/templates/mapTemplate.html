@@ -1,0 +1,21 @@
+<div id="wrap">
+	<!-- new maps directive template -->
+	
+<link href="/ci/resources/map-styles.css" rel="stylesheet"/>
+
+	<!-- Begin page content -->
+	<div class="container-fluid" >
+		<div id="gmaps" >
+			<img  ng-src="/ci/resources/images/{{thisPark}}/mapBG.png" class="resizer" rwdimgmap usemap="#image-map" width="2560" height="1440" />
+			<map name="image-map">
+				<area ng-repeat="item in modalItems track by $index" 
+					alt="{{item.itemTitle}}" title="{{item.itemTitle}}" ng-click="openwf('lg', item.modalItemID )" 
+					coords="{{item.c1}},{{item.c2}},{{item.c3}},{{item.c4}}" shape="rect" >
+			</map>
+		</div>
+	</div>
+
+
+<!--<modal-template></modal-template> -->
+
+</div>
